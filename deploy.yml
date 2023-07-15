@@ -3,7 +3,7 @@
   become: true
   vars:
   - warName: java-example-0.0.1-SNAPSHOT.war
-  - tomcat_version: 8.5.53
+  - tomcat_version: 10.1.11
   - warRemotePath: /opt/apache-tomcat-{{ tomcat_version }}/webapps
 
   tasks:
